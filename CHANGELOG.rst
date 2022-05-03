@@ -2,6 +2,13 @@
 Changelog for package web_video_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix build for ROS2 Foxy (`#111 <https://github.com/fictionlab/web_video_server-ros2/issues/111>`_)
+  * Fix build for ROS2 Foxy
+  * Switch incoming CompressedImage msgs to use RCL_ROS_TIME
+* Contributors: Domenic Rodriguez
+
 1.0.0 (2019-09-20)
 ------------------
 * Port to ROS 2

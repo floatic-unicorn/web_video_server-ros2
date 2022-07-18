@@ -2,6 +2,15 @@
 Changelog for package web_video_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix build for ROS2 Humble
+* Sync ros2 branch up to version 0.2.2
+  fix multipart_stream.cpp HttpHeader values in order to solve DOMException(cross origin) CORS issue (`#92 <https://github.com/fictionlab/web_video_server-ros2/issues/92>`_)
+  add a mention of mjpegcanvasjs in the readme (`#100 <https://github.com/fictionlab/web_video_server-ros2/issues/100>`_)
+  fix vp9 and h264, support for opencv4 and ffmpeg 4 (`#103 <https://github.com/fictionlab/web_video_server-ros2/issues/103>`_)
+* Contributors: Błażej Sowa, Domenic Rodriguez
+
 1.0.1 (2022-05-03)
 ------------------
 * Fix build for ROS2 Foxy (`#111 <https://github.com/fictionlab/web_video_server-ros2/issues/111>`_)

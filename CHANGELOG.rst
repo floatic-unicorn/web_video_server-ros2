@@ -2,8 +2,8 @@
 Changelog for package web_video_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.2 (2022-07-18)
+------------------
 * Fix build for ROS2 Humble
 * Sync ros2 branch up to version 0.2.2
   fix multipart_stream.cpp HttpHeader values in order to solve DOMException(cross origin) CORS issue (`#92 <https://github.com/fictionlab/web_video_server-ros2/issues/92>`_)
